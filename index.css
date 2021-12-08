@@ -1,0 +1,40 @@
+body{
+    background-color: #111;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   }
+   .container{
+       max-width: 1000px;
+       height: 100vh;
+       margin: 0 auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .cronometro{
+       width: 400px;
+       height: 150px;
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       margin: 10px;
+       padding: 20px;
+       background-color: #ffffffcc;
+       border-radius: 2em;
+       border: 5px solid #835fa9;
+       box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+
+   }
+   .cronometro span{
+       display: block;
+       width: 100vh;
+       text-align: center;
+       font-size: 3em;
+   }
+   button{
+       width: 80px;
+       height: 40px;
+       margin: 15px;
+       border-radius: 1em;
+       background-color: #4b447b;
+       color: #fff
+   }
